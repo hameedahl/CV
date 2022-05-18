@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<body>
+    <h3><strong>Contact Me!</strong></h1>
+    <p>Email: hameedah_l@yahoo.com</p> 
+    <p>Phone: 917-501-4325</p>
+    <hr>
+    <!--action(what happens when you click submit)-->
+    <!--mailto(opens your computer's mail and sends to given email)-->
+    <!--post(sends to the given message to given email)-->
+    <!--post(data in out form is encoded in plain text)-->
+    <form action="mailto:hameedah_l@yahoo.com" method="post" enctype="text/plain">
+        <label for="">Name:</label>
+        <!--making a text box (notice types)-->
+        <input type="text" name="yourName"><br>
+        <label for="">Email:</label>
+        <!--name will be printed in email-->
+        <input type="email" name="yourEmail"><br>
+        <label for="">Message:</label><br>
+        <!--rows(how tall) cols(how wide)-->
+        <textarea name="yourMessage" cols="30" rows="10"></textarea><br> 
+        <input type="submit">
+    </form>
+</body>
+</html>
